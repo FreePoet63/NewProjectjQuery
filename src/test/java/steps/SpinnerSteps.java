@@ -9,8 +9,8 @@ public class SpinnerSteps {
     SpinnerPage spinnerPage = new SpinnerPage();
 
     @Then("Enter any digital value In Select a value textbox")
-    public void enterAnyDigitalValueInSelectAValueTextbox() {
-        spinnerPage.SetValueInputField();
+    public void enterAnyDigitalValue() {
+        spinnerPage.setValueInputField();
     }
 
     @Then("Click Get value button")

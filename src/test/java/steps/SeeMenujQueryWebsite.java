@@ -17,7 +17,7 @@ public class SeeMenujQueryWebsite {
 
     @SuppressWarnings("unchecked")
     @Then("Verify left menu bar contains the following sections: Interactions, Widgets, Effects, Utilities.")
-    public void verifyLeftMenuBarContainsTheFollowingSectionsInteractionsWidgetsEffectsUtilities() {
+    public void verifyMenu() {
         List<WebElement> ele = page.seeMenu();
         assertThat(ele,hasItems(hasText("Interactions"),hasText("Widgets"),hasText("Effects"),hasText("Utilities")));
 

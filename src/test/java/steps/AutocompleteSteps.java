@@ -14,13 +14,13 @@ public class AutocompleteSteps {
     }
 
     @Then("From the list of autocomplete that appears, select the option with the value Asp from the keyboard.")
-    public void fromTheListOfAutocompleteThatAppearsSelectTheOptionWithTheValueAspFromTheKeyboard() {
+    public void openScrollText() {
         autoPage.clickListItem();
     }
 
     @Then("Verify Tags field value is Asp")
-    public void verifyTagsFieldValueIsAsp() {
-        String valueTags = autoPage.GetValueTags();
+    public void verifyTagsFieldValue() {
+        String valueTags = autoPage.getValueTags();
         Assert.assertEquals(TestConfig.VALUE_NEWTAGS, valueTags);
     }
 

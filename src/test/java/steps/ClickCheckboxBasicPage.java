@@ -7,7 +7,7 @@ public class ClickCheckboxBasicPage {
     BasePage basePage = new BasePage();
 
     @Then("Click {string} link in Widgets left menu section")
-    public void clickLinkInWidgetsLeftMenuSection(String arg0) {
+    public void clickLinkMenuSection(String arg0) {
         basePage.clickCheckbox(arg0);
     }
 
