@@ -1,7 +1,6 @@
 package elements;
 
 public class Locators {
-
     public static String GET_VALUE = "getvalue";
     public static String IFRAME = "//iframe[@class = \"demo-frame\"]";
     public static String INPUT = "spinner";

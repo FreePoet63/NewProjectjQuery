@@ -23,6 +23,4 @@ public class AutocompleteSteps {
         String valueTags = autoPage.getValueTags();
         Assert.assertEquals(TestConfig.VALUE_NEWTAGS, valueTags);
     }
-
-
 }

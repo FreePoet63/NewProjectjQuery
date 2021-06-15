@@ -9,7 +9,6 @@ import static elements.Frame.openFrame;
 import static elements.Locators.*;
 
 public class SpinnerPage {
-
     public void  setValueInputField() {
         openFrame();
         $(By.id(INPUT)).setValue(VALUE_TESTDATE);

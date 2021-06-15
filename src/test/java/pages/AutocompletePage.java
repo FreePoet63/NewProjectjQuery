@@ -10,7 +10,6 @@ import static elements.Frame.openFrame;
 import static elements.Locators.NEW_INPUT;
 
 public class AutocompletePage {
-
     public void valueInputAutocomplete() {
         openFrame();
         $(By.id(NEW_INPUT)).setValue(VALUE_TAGS);
